@@ -6,7 +6,7 @@
 /*   By: ayal-ras <ayal-ras@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/08 19:52:19 by ayal-ras          #+#    #+#             */
-/*   Updated: 2023/08/16 21:12:09 by ayal-ras         ###   ########.fr       */
+/*   Updated: 2024/01/05 15:21:01 by ayal-ras         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,6 @@
 # define FT_PRINTF_H
 # include <unistd.h>
 # include <stdarg.h>
-# include <string.h>
-# include <stdio.h>
 # include <stdbool.h>
 # include <stdlib.h>
 

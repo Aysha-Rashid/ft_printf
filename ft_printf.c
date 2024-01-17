@@ -6,7 +6,7 @@
 /*   By: ayal-ras <ayal-ras@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/11 14:06:05 by ayal-ras          #+#    #+#             */
-/*   Updated: 2023/08/22 14:00:11 by ayal-ras         ###   ########.fr       */
+/*   Updated: 2024/01/05 15:20:13 by ayal-ras         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-ft_format(va_list args, const char format)
+int	ft_format(va_list args, const char format)
 {
 	int	result;
 
@@ -63,25 +63,5 @@ int	ft_printf(const char *format, ...)
 		}
 		i++;
 	}
-	va_end(args);
 	return (written_chars);
 }
-
-// int main()
-// {
-// 	// int lenght;
-// 	// char sr[] = "hgfhfg";
-// 	// char sr1[] = "HEHJHSDG";
-// 	// char *str;
-// 	// lenght = ft_strlen(sr);
-// 	// printf("%d\n", length);
-// 	ft_printf("%", 0, "s");
-// 	printf("%", 0, "s");
-//    // ft_printf("%u\n",-5287287);
-// //	printf("%d\n", 5287287);
-// 	 // Pass a character 'h' instead of "h"
-//     // return 0; // Add a return statement
-// }
-//  A va_list is simply a pointer into the stack, and 
-//va_arg just adds the size of the type to be retrieved to the va_list,
-// and returns the old value

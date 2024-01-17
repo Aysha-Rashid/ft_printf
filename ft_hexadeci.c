@@ -6,7 +6,7 @@
 /*   By: ayal-ras <ayal-ras@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 17:27:52 by ayal-ras          #+#    #+#             */
-/*   Updated: 2023/08/17 15:42:26 by ayal-ras         ###   ########.fr       */
+/*   Updated: 2024/01/05 15:20:40 by ayal-ras         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,9 +75,3 @@ int	ft_hexa_bx(unsigned int nb)
 	}
 	return (len);
 }
-
-// int main ()
-// {
-// 	// printf("%d\n", ft_hexa(-2));
-// 	printf("%%%");
-// }

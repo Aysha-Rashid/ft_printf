@@ -6,7 +6,7 @@
 /*   By: ayal-ras <ayal-ras@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/12 18:21:41 by ayal-ras          #+#    #+#             */
-/*   Updated: 2023/08/18 19:44:59 by ayal-ras         ###   ########.fr       */
+/*   Updated: 2024/01/05 15:20:26 by ayal-ras         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,3 @@ int	ft_string(char *str)
 	}
 	return (i);
 }
-
-// int main ()
-// {
-// 	ft_printf("%%%",ft_putchar("%%%"));
-// }

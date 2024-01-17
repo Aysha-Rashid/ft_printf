@@ -6,7 +6,7 @@
 /*   By: ayal-ras <ayal-ras@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/16 19:51:46 by ayal-ras          #+#    #+#             */
-/*   Updated: 2023/08/18 13:33:54 by ayal-ras         ###   ########.fr       */
+/*   Updated: 2024/01/05 15:20:33 by ayal-ras         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,11 +48,3 @@ int	ft_pointer(void *ptr)
 	}
 	return (len + 2);
 }
-
-// int main()
-// {
-//     int a = 42; // Example integer value
-//     printf("%d\n", ft_pointer(&a));
-//     printf("%p", &a);
-//     return 0;
-// }
